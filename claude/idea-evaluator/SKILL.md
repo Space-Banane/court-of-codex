@@ -20,6 +20,8 @@ Treat the task like a structured decision engine:
 
 Run the evaluation in 3 stages.
 
+Before moving to the next stage, wait until every agent in the current stage has finished its research and returned its output.
+
 ### Stage 1: Broad Scan
 
 Launch 5 subagents.
@@ -87,4 +89,3 @@ Include:
 - positives
 - negatives
 - MVP question
-

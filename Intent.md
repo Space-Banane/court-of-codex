@@ -35,6 +35,8 @@ The skill exists to answer:
 
 The evaluation must happen in 3 stages.
 
+Before moving to the next stage, wait until every agent in the current stage has finished its research and returned its output.
+
 ### Stage 1: Broad Scan
 
 Launch 5 subagents.
@@ -110,4 +112,3 @@ The skill is successful if it can:
 - support strong ideas with real reasoning,
 - surface useful market and execution risks,
 - and help the user decide whether the idea deserves an MVP.
-
