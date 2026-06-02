@@ -12,4 +12,3 @@ This folder contains the OpenClaw version of `idea-evaluator`.
 
 - `Intent.md` in the repo root
 - OpenClaw skill loading and frontmatter rules
-

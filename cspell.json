@@ -1,0 +1,19 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "Codex",
+    "Claude",
+    "Gitea",
+    "MVP",
+    "OpenClaw",
+    "README",
+    "idea-evaluator",
+    "frontmatter",
+    "subagents",
+    "hyphen-case"
+  ],
+  "ignorePaths": [
+    "LICENSE"
+  ]
+}
