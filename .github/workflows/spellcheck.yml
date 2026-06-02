@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install codespell
-        run: python -m pip install --upgrade codespell
+        run: python -m pip install --upgrade codespell --break-system-packages
 
       - name: Check Markdown spelling
         run: codespell $(git ls-files '*.md')
