@@ -21,4 +21,4 @@ jobs:
         run: python -m pip install --upgrade codespell --break-system-packages
 
       - name: Check Markdown spelling
-        run: codespell $(git ls-files '*.md')
+        run: codespell $(git ls-files '**/*.md')
