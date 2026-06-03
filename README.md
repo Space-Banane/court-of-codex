@@ -8,6 +8,7 @@ This repository packages the same `idea-evaluator` concept for three different a
 - `codex/idea-evaluator`: Codex-formatted package
 - `claude/idea-evaluator`: Claude Code-formatted package
 - `openclaw/idea-evaluator`: OpenClaw-formatted package
+- `copy-script/`: Python installer and its README
 
 ## What It Does
 
@@ -23,6 +24,11 @@ It is designed to:
 
 - `Intent.md` is the canonical brief for the skill
 - Each package folder contains a `SKILL.md` plus a short README for that ecosystem
+- `copy-script/README.md` explains the installer and its options
+
+## Installation
+
+Run the Python installer in `copy-script/` to copy the package folders into the matching skills directories under your home folder.
 
 ## License
 
